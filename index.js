@@ -59,23 +59,23 @@ function gameOver(){
 function makeSound(id){
     switch(id){
         case "red":
-            var audio=new Audio("./sounds/red.mp3");
+            var audio=new Audio("./sound/red.mp3");
             audio.play();
             break;
         case "green":
-            var audio=new Audio("./sounds/green.mp3");
+            var audio=new Audio("./sound/green.mp3");
             audio.play();
             break;
         case "yellow":
-            var audio=new Audio("./sounds/yellow.mp3");
+            var audio=new Audio("./sound/yellow.mp3");
             audio.play();
             break;
         case "blue":
-            var audio=new Audio("./sounds/blue.mp3");
+            var audio=new Audio("./sound/blue.mp3");
             audio.play();
             break;
         case "wrong":
-            var audio=new Audio("./sounds/wrong.mp3");
+            var audio=new Audio("./sound/wrong.mp3");
             audio.play();
             break;
         default:
